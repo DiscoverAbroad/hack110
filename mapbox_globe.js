@@ -37,13 +37,13 @@ new mapboxgl.Marker()
     .setPopup(new mapboxgl.Popup().setHTML("<h1><a href='americas.html'>click</a></h1>"))
     .addTo(map);
 
-// fellowship in bejing
+// fellowship in beijing
 new mapboxgl.Marker()
     .setLngLat([116.4074, 39.9042])
     .setPopup(new mapboxgl.Popup().setHTML(
         "<style>a { color: #45b0d1 } p { font-size: 14px; }</style>" +
-        "<h1><a href='asia.html#william'>CET Bejing</a></h1>" +
-        "<p>Bejing and Shanghai, China</p>" +
+        "<h1><a href='asia.html#william'>CET Beijing</a></h1>" +
+        "<p>Beijing and Shanghai, China</p>" +
         "<p>Program duration: Summer semester</p>" +
         "<p>Estimated cost: $32,530.00</p>"
     ))

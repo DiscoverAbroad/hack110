@@ -9,6 +9,11 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiY2FsZWJoYW4iLCJhIjoiY20zYWZhemx6MTJvMDJqcHhuO
 const map = new mapboxgl.Map({
     container: mapElement,
     center: [longitude, latitude],
-    zoom: 16,
+    zoom: 15,
     pitch: 62,
 });
+
+// Function to change the map center
+function changeMap(lat, lng) {
+    map.setCenter([lng, lat]);
+}
