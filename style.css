@@ -10,6 +10,7 @@ html, body {
 [class*="col-"] {
     width: 100%
 }
+
 li{
     text-align: left;
 }
@@ -35,14 +36,6 @@ li{
 .title0 {
     color: white;
     font-size: 90px;
-    text-align: center;
-}
-
-.logo {
-    margin-top: 20px;
-    font-family: "PT Serif", serif;
-    font-size: 100px;
-    color: white;
     text-align: center;
 }
 
@@ -123,7 +116,20 @@ body {
     top: 0;
 }
 
-.navbar > a {
+.navbar_m {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar > a, .navbar_m > a {
     position: relative;
     float: left;
     display: block;
@@ -135,7 +141,7 @@ body {
     margin: auto 5px;
 }
 
-.navbar > a::after {
+.navbar > a::after, .navbar_m > a::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -148,28 +154,21 @@ body {
     transition: transform 0.25s ease-out;
 }
 
-.navbar > a.active::after {
+.navbar > a.active::after, .navbar_m > a.active::after {
     background-color: #45b0d1;
 }
 
-.navbar > a:hover::after {
+.navbar > a:hover::after, .navbar_m > a:hover::after {
     transform: scaleX(1);
     transform-origin: bottom center;
 }
 
-.navbar a.active {
+.navbar a.active, .navbar_m a.active, a {
     color: #45b0d1;
 }
 
 a {
     color: #45b0d1;
-}
-
-mark {
-    color:  #45b0d1;
-    padding-left: 2px;
-    padding-right: 2px;
-    background-color: transparent;
 }
 
 .container {
@@ -186,34 +185,25 @@ mark {
     opacity: 100%;
 }
 
-.content1 {
+.content1, .content2, .content3, .content4, .content5 {
     display: flex;
+    padding: 10px;
 }
 
 .content2 {
-    display: flex;
     flex-direction: row;
-    padding: 20px;
     justify-content: center;
-}
-
-.content3 {
-    display: flex;
-    padding: 10px;
+    padding: 20px;
 }
 
 .content4 {
-    display: flex;
     border: 1px solid #b2aeae;
-    border-bottom-width: 0px;
-    border-left-width: 0px;
-    border-right-width: 0px;
-    padding: 10px;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
 }
 
 .content5 {
-    display: flex;
-    padding: 10px;
     overflow-x: scroll;
 }
 
@@ -225,44 +215,26 @@ mark {
     color: white;
 }
 
-.title2 {
-    width: 100%;
-    text-align: center;
-    font-size: 30px;
-    margin-top: -20px;
-    margin-bottom: -30px;
+.text1, .text2, .text3, .text4 {
+    padding: 0 20px 0 0;
 }
 
-.text1 {
+.text1, .text3 {
     flex: 1;
-    padding: 0px 20px 0px 0px;
 }
 
 .text2 {
     flex: 2;
-    padding: 0px 20px 0px 0px;
-}
-
-.text3 {
-    flex: 1;
-    padding: 0px 20px 0px 0px;
 }
 
 .text4 {
     width: 100%;
-    padding: 0px 20px 0px 0px;
     overflow-wrap: break-word;
     text-align: start;
 }
 
-.logo2 {
-    display: flex;
-    justify-content: space-around;
-}
-
 .image1 {
     flex: 1;
-    padding: 10px;
     width: 50%;
     height: auto;
     object-fit: contain;
@@ -293,8 +265,6 @@ mark {
     height: auto;
     object-fit: contain;
 }
-
-
 
 div.gallery {
     margin: 5px;

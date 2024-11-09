@@ -39,7 +39,7 @@ new mapboxgl.Marker()
     .setLngLat([116.4074, 39.9042])
     .setPopup(new mapboxgl.Popup().setHTML(
         "<style>a { color: #45b0d1 }</style>" +
-        "<h1><a href='asia.html#william'>CET Beijing</a></h1>" +
+        "<h1><a href='asia.html#william'>CET Beijing</a></h1>"
     ))
     .addTo(map);
 

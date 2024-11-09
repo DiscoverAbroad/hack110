@@ -1,7 +1,5 @@
-// Get the map element
 const mapElement = document.querySelector('.map');
 
-// Retrieve latitude and longitude from data attributes
 const latitude = mapElement.getAttribute('data-lat');
 const longitude = mapElement.getAttribute('data-lng');
 
@@ -13,7 +11,6 @@ const map = new mapboxgl.Map({
     pitch: 62,
 });
 
-// Function to change the map center
 function changeMap(lat, lng) {
     map.setCenter([lng, lat]);
 }
