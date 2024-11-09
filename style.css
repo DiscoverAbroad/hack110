@@ -62,7 +62,7 @@ body {
     left: -5vw;
     top: -5vh;
     z-index: -1;
-    background-image: url('img/europe/greece_1.png');
+    background-image: url('img/europe/greece_2.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -73,7 +73,7 @@ body {
     left: -5vw;
     top: -5vh;
     z-index: -1;
-    background-image: url('img/europe/greece_1.png');
+    background-image: url('img/asia/seoul_1.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -84,7 +84,7 @@ body {
     left: -5vw;
     top: -5vh;
     z-index: -1;
-    background-image: url('img/europe/greece_1.png');
+    background-image: url('img/apac/australia_5.jpeg');
     background-size: cover;
     background-position: center;
 }
@@ -95,7 +95,7 @@ body {
     left: -5vw;
     top: -5vh;
     z-index: -1;
-    background-image: url('img/europe/greece_1.png');
+    background-image: url('img/americas/alaska_3.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -268,9 +268,10 @@ a {
 
 div.gallery {
     margin: 5px;
+    margin-bottom: 50px;
     border: 1px solid #ccc;
     float: left;
-    width: 500px;
+    height: 250px;
 }
 
 div.gallery:hover {
@@ -278,8 +279,8 @@ div.gallery:hover {
 }
 
 div.gallery img {
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 100%;
 }
 
 div.desc {
