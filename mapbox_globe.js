@@ -115,6 +115,24 @@ new mapboxgl.Marker()
     ))
     .addTo(map);
 
+// kenya
+new mapboxgl.Marker()
+    .setLngLat([39.846, -3.62])
+    .setPopup(new mapboxgl.Popup().setHTML(
+        "<style>a { color: #45b0d1 }</style>" +
+        "<h1><a href='asia.html#kenya'>Pwani University</a></h1>"
+    ))
+    .addTo(map);
+
+// cape town
+new mapboxgl.Marker()
+    .setLngLat([18.476, -33.948])
+    .setPopup(new mapboxgl.Popup().setHTML(
+        "<style>a { color: #45b0d1 }</style>" +
+        "<h1><a href='asia.html#cape'>Cape Town</a></h1>"
+    ))
+    .addTo(map);
+
 map.addControl(new mapboxgl.NavigationControl());
 
 map.on('style.load', () => {
