@@ -166,6 +166,12 @@ mark {
     padding: 10px;
 }
 
+.content5 {
+    display: flex;
+    padding: 10px;
+    overflow-x: scroll;
+}
+
 .title1 {
     width: 100%;
     text-align: center;
@@ -249,7 +255,7 @@ div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
-    width: 180px;
+    width: 500px;
 }
 
 div.gallery:hover {
@@ -264,4 +270,11 @@ div.gallery img {
 div.desc {
     padding: 15px;
     text-align: center;
+}
+
+.map {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 500px;
 }
