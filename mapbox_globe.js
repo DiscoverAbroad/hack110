@@ -93,7 +93,7 @@ new mapboxgl.Marker()
     .setLngLat([172.5794, -43.5225])
     .setPopup(new mapboxgl.Popup().setHTML(
         "<style>a { color: #45b0d1 }</style>" +
-        "<h1><a href='asia.html#hebrew'>University of Canterbury</a></h1>"
+        "<h1><a href='asia.html#canterbury'>University of Canterbury</a></h1>"
     ))
     .addTo(map);
 
@@ -102,16 +102,16 @@ new mapboxgl.Marker()
     .setLngLat([115.835, -32.066])
     .setPopup(new mapboxgl.Popup().setHTML(
         "<style>a { color: #45b0d1 }</style>" +
-        "<h1><a href='asia.html#hebrew'>Murdoch University</a></h1>"
+        "<h1><a href='asia.html#murdoch'>Murdoch University</a></h1>"
     ))
     .addTo(map);
 
 // spain
 new mapboxgl.Marker()
-    .setLngLat([-3.8340, 40.4398])
+    .setLngLat([-1.6315, 42.796])
     .setPopup(new mapboxgl.Popup().setHTML(
         "<style>a { color: #45b0d1 }</style>" +
-        "<h1><a href='asia.html#hebrew'>Universidad Francisco de Vitoria</a></h1>"
+        "<h1><a href='asia.html#spain'>Universidad de Navarra</a></h1>"
     ))
     .addTo(map);
 
