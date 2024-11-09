@@ -11,8 +11,6 @@ Carolina Global Launch: South Korea	Seoul,	South Korea,	[37.5894, 127.0325],	htt
 
 UNC Sils in Greece,	Athens	Greece,	[37.9838, 23.7275],	https://heelsabroad.unc.edu/_portal/tds-program-brochure?programid=12550 
 
-UNC Sils in Greece	Thessaloniki	Greece	[40.6401, 22.9444]	https://heelsabroad.unc.edu/_portal/tds-program-brochure?programid=12551 
-
 University of Wollongong	Wollongong	Austrialia	[-34.4053, 150.8778]	https://heelsabroad.unc.edu/_portal/tds-program-brochure?programid=10341
 
 Pontificia Universidad Catolica de Argentina (Media & Journalism)	Buenos Aires	Argentina	[-34.6140, -58.3657]	https://heelsabroad.unc.edu/_portal/tds-program-brochure?programid=10171 
