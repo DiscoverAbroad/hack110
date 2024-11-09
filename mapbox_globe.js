@@ -99,10 +99,19 @@ new mapboxgl.Marker()
 
 // murdoch
 new mapboxgl.Marker()
-    .setLngLat([ 115.835, -32.066])
+    .setLngLat([115.835, -32.066])
     .setPopup(new mapboxgl.Popup().setHTML(
         "<style>a { color: #45b0d1 }</style>" +
         "<h1><a href='asia.html#hebrew'>Murdoch University</a></h1>"
+    ))
+    .addTo(map);
+
+// spain
+new mapboxgl.Marker()
+    .setLngLat([-3.8340, 40.4398])
+    .setPopup(new mapboxgl.Popup().setHTML(
+        "<style>a { color: #45b0d1 }</style>" +
+        "<h1><a href='asia.html#hebrew'>Universidad Francisco de Vitoria</a></h1>"
     ))
     .addTo(map);
 
