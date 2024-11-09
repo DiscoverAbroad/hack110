@@ -62,6 +62,51 @@ body {
     background-position: center;
 }
 
+.backgroundeu {
+    position: fixed;
+    width: 110vw;
+    height: 110vh;
+    left: -5vw;
+    top: -5vh;
+    z-index: -1;
+    background-image: url('img/europe/greece_1.png');
+    background-size: cover;
+    background-position: center;
+}
+.backgroundasia {
+    position: fixed;
+    width: 110vw;
+    height: 110vh;
+    left: -5vw;
+    top: -5vh;
+    z-index: -1;
+    background-image: url('img/europe/greece_1.png');
+    background-size: cover;
+    background-position: center;
+}
+.backgroundapac {
+    position: fixed;
+    width: 110vw;
+    height: 110vh;
+    left: -5vw;
+    top: -5vh;
+    z-index: -1;
+    background-image: url('img/europe/greece_1.png');
+    background-size: cover;
+    background-position: center;
+}
+.backgroundamer {
+    position: fixed;
+    width: 110vw;
+    height: 110vh;
+    left: -5vw;
+    top: -5vh;
+    z-index: -1;
+    background-image: url('img/europe/greece_1.png');
+    background-size: cover;
+    background-position: center;
+}
+
 .background-black {
     position: absolute;
     background-color: black;
