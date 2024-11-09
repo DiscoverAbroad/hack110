@@ -11,11 +11,8 @@ const map = new mapboxgl.Map({
 new mapboxgl.Marker()
     .setLngLat([127.0325, 37.5894])
     .setPopup(new mapboxgl.Popup().setHTML(
-        "<style>a { color: #45b0d1 } p { font-size: 14px; }</style>" +
-        "<h1><a href='asia.html#korea'>Korea University</a></h1>" +
-        "<p>Seoul, South Korea</p>" +
-        "<p>Program duration: Fall semester</p>" +
-        "<p>Estimated cost: $26,895.00</p>"
+        "<style>a { color: #45b0d1 }</style>" +
+        "<h1><a href='asia.html#korea'>Korea University</a></h1>"
     ))
     .addTo(map);
 
@@ -41,11 +38,8 @@ new mapboxgl.Marker()
 new mapboxgl.Marker()
     .setLngLat([116.4074, 39.9042])
     .setPopup(new mapboxgl.Popup().setHTML(
-        "<style>a { color: #45b0d1 } p { font-size: 14px; }</style>" +
+        "<style>a { color: #45b0d1 }</style>" +
         "<h1><a href='asia.html#william'>CET Beijing</a></h1>" +
-        "<p>Beijing and Shanghai, China</p>" +
-        "<p>Program duration: Summer semester</p>" +
-        "<p>Estimated cost: $32,530.00</p>"
     ))
     .addTo(map);
 
