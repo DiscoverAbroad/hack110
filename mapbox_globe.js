@@ -66,7 +66,7 @@ new mapboxgl.Marker()
     .setLngLat([-147.8341, 64.8556])
     .setPopup(new mapboxgl.Popup().setHTML(
         "<style>a { color: #45b0d1 }</style>" +
-        "<h1><a href='americas.html#alaska'>Korea University</a></h1>"
+        "<h1><a href='americas.html#alaska'>Peacemaking within Alaska</a></h1>"
     ))
     .addTo(map);
 
@@ -93,7 +93,7 @@ new mapboxgl.Marker()
     .setLngLat([172.5794, -43.5225])
     .setPopup(new mapboxgl.Popup().setHTML(
         "<style>a { color: #45b0d1 }</style>" +
-        "<h1><a href='asia.html#canterbury'>University of Canterbury</a></h1>"
+        "<h1><a href='apac.html#canterbury'>University of Canterbury</a></h1>"
     ))
     .addTo(map);
 
@@ -102,7 +102,7 @@ new mapboxgl.Marker()
     .setLngLat([115.835, -32.066])
     .setPopup(new mapboxgl.Popup().setHTML(
         "<style>a { color: #45b0d1 }</style>" +
-        "<h1><a href='asia.html#murdoch'>Murdoch University</a></h1>"
+        "<h1><a href='apac.html#murdoch'>Murdoch University</a></h1>"
     ))
     .addTo(map);
 
@@ -111,7 +111,7 @@ new mapboxgl.Marker()
     .setLngLat([-1.6315, 42.796])
     .setPopup(new mapboxgl.Popup().setHTML(
         "<style>a { color: #45b0d1 }</style>" +
-        "<h1><a href='asia.html#spain'>Universidad de Navarra</a></h1>"
+        "<h1><a href='europe.html#spain'>Universidad de Navarra</a></h1>"
     ))
     .addTo(map);
 
@@ -120,7 +120,7 @@ new mapboxgl.Marker()
     .setLngLat([39.846, -3.62])
     .setPopup(new mapboxgl.Popup().setHTML(
         "<style>a { color: #45b0d1 }</style>" +
-        "<h1><a href='asia.html#kenya'>Pwani University</a></h1>"
+        "<h1><a href='africa.html#kenya'>Pwani University</a></h1>"
     ))
     .addTo(map);
 
@@ -129,7 +129,7 @@ new mapboxgl.Marker()
     .setLngLat([18.476, -33.948])
     .setPopup(new mapboxgl.Popup().setHTML(
         "<style>a { color: #45b0d1 }</style>" +
-        "<h1><a href='asia.html#cape'>Cape Town</a></h1>"
+        "<h1><a href='africa.html#cape'>Cape Town</a></h1>"
     ))
     .addTo(map);
 
