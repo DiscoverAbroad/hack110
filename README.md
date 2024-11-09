@@ -2,25 +2,25 @@
 
 Caleb Han and Mason Mines
 
-https://docs.mapbox.com/#maps
+We were inspired to create this project due to our interest in studying abroad, and we wanted to share our opinions on the most interesting study abroad locations and programs for any types of people.
 
-### Locations: 
+## Resources used:
+* https://docs.mapbox.com/
+* Photos under the Study Abroad portals (links below)
 
-#### Layout: Program Name,	City,	Country	Latitude/Longitude,	URL
-Carolina Global Launch: South Korea	Seoul,	South Korea,	[37.5894, 127.0325],	https://heelsabroad.unc.edu/_portal/tds-program-brochure?programid=12405
+## Locations: 
 
-UNC Sils in Greece,	Athens	Greece,	[37.9838, 23.7275],	https://heelsabroad.unc.edu/_portal/tds-program-brochure?programid=12550 
-
-University of Wollongong	Wollongong	Australia	[-34.4053, 150.8778]	https://heelsabroad.unc.edu/_portal/tds-program-brochure?programid=10341
-
-Pontificia Universidad Catolica de Argentina (Media & Journalism)	Buenos Aires	Argentina	[-34.6140, -58.3657]	https://heelsabroad.unc.edu/_portal/tds-program-brochure?programid=10171
-
-UNC William D. Weir Honors Fellowships in Asian Studies	Bejing	China	[39.9042, 116.4074]	https://heelsabroad.unc.edu/_portal/tds-program-brochure?programid=10343 
-
-UNC Global Affairs: Washington Week (Spring Break)	Washington D.C.	US	[38.8860, -76.9995]	https://heelsabroad.unc.edu/_portal/tds-program-brochure?programid=12258 
-
-UNC Peacemaking within Alaska	Alaska	US	[64.8556, -147.8341]	https://heelsabroad.unc.edu/_portal/tds-program-brochure?programid=12546 
-
-UNC Burch in Brussels (Transatlantic Security)	Brussles	Belgium	[50.8214, 4.3917]	https://heelsabroad.unc.edu/_portal/tds-program-brochure?programid=11760 
-
-Hebrew University of Jerusalem	Jerusalem	Israel	[31.7946, 35.2414]	https://heelsabroad.unc.edu/_portal/tds-program-brochure?programid=10215 
+* [Carolina Global Launch: South Korea](https://heelsabroad.unc.edu/_portal/tds-program-brochure?programid=12405)
+* [UNC Sils in Greece](https://heelsabroad.unc.edu/_portal/tds-program-brochure?programid=12550)
+* [University of Wollongong](https://heelsabroad.unc.edu/_portal/tds-program-brochure?programid=10341)
+* [Pontificia Universidad Catolica de Argentina (Media & Journalism)](https://heelsabroad.unc.edu/_portal/tds-program-brochure?programid=10171)
+* [UNC William D. Weir Honors Fellowships in Asian Studies](https://heelsabroad.unc.edu/_portal/tds-program-brochure?programid=10343)
+* [UNC Global Affairs: Washington Week (Spring Break)](https://heelsabroad.unc.edu/_portal/tds-program-brochure?programid=12258)
+* [UNC Peacemaking within Alaska](https://heelsabroad.unc.edu/_portal/tds-program-brochure?programid=12546)
+* [UNC Burch in Brussels (Transatlantic Security)](https://heelsabroad.unc.edu/_portal/tds-program-brochure?programid=11760 )
+* [Hebrew University of Jerusalem](https://heelsabroad.unc.edu/_portal/tds-program-brochure?programid=10215) 
+* [Universidad de Navarra (Media & Journalism)](https://heelsabroad.unc.edu/_portal/tds-program-brochure?programid=10328)
+* [University of Canterbury](https://heelsabroad.unc.edu/_portal/tds-program-brochure?programid=10316)
+* [Murdoch University](https://heelsabroad.unc.edu/_portal/tds-program-brochure?programid=10240)
+* [UNC Swahili Intercultural Experience in Kenya](https://heelsabroad.unc.edu/_portal/tds-program-brochure?programid=12547)
+* [UNC Honors in Cape Town](https://heelsabroad.unc.edu/_portal/tds-program-brochure?programid=10218)

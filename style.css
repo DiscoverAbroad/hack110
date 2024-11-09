@@ -168,7 +168,7 @@ body {
     margin: auto 5px;
 }
 
-.navbar > a::after, .navbar_m > a::after {
+.navbar > a::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -177,6 +177,19 @@ body {
     bottom: 0;
     left: 0;
     background-color: #f2f2f2;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.navbar_m > a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #808080;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }
