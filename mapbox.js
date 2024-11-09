@@ -1,9 +1,8 @@
-
 mapboxgl.accessToken = 'pk.eyJ1IjoiY2FsZWJoYW4iLCJhIjoiY20zYWZhemx6MTJvMDJqcHhuOHpzMzIxaCJ9.Ex5-2rGapj9t0afOM2s4Yw';
 const map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/streets-v9',
-    projection: 'globe', // Display the map as a globe, since satellite-v9 defaults to Mercator
+    projection: 'globe',
     zoom: 1,
     center: [30, 15]
 });
@@ -12,9 +11,11 @@ const map = new mapboxgl.Map({
 new mapboxgl.Marker()
     .setLngLat([127.0325, 37.5894])
     .setPopup(new mapboxgl.Popup().setHTML(
-        "<style></style>" +
-        "<h1><a href='asia.html'>Korea University</a></h1>" +
-        "<p>Seoul, South Korea</p>"
+        "<style>a { color: #45b0d1 } p { font-size: 14px; }</style>" +
+        "<h1><a href='asia.html#korea'>Korea University</a></h1>" +
+        "<p>Seoul, South Korea</p>" +
+        "<p>Program duration: Fall semester</p>" +
+        "<p>Estimated cost: $26,895.00</p>"
     ))
     .addTo(map);
 
@@ -39,7 +40,13 @@ new mapboxgl.Marker()
 // fellowship in bejing
 new mapboxgl.Marker()
     .setLngLat([116.4074, 39.9042])
-    .setPopup(new mapboxgl.Popup().setHTML("<h1><a href='asia.html'>click</a></h1>"))
+    .setPopup(new mapboxgl.Popup().setHTML(
+        "<style>a { color: #45b0d1 } p { font-size: 14px; }</style>" +
+        "<h1><a href='asia.html#william'>CET Bejing</a></h1>" +
+        "<p>Bejing and Shanghai, China</p>" +
+        "<p>Program duration: Summer semester</p>" +
+        "<p>Estimated cost: $32,530.00</p>"
+    ))
     .addTo(map);
 
 // global affairs washington week
