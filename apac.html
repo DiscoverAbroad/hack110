@@ -2,9 +2,11 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Australia and Pacific Islands</title>
+    <title>APAC</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.7.0/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.7.0/mapbox-gl.js"></script>
     <script
             src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
             integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8="
@@ -15,39 +17,49 @@
 </head>
 
 <body>
-<div class="backgroundapac">
-    <div class="background-black"></div>
-</div>
-
-<div class="navbar">
-    <a href="index.html">Home</a>
-    <a href="europe.html">Europe</a>
-    <a href="asia.html">Asia</a>
-    <a href="americas.html">Americas</a>
-    <a href="apac.html" class="active">Australia and Pacific Islands</a>
-</div>
-
-<div class="title0">
-    Australia and the Pacific Islands
-</div>
-
-<br>
-<div class="col-6 container" id="wollongong">
-    <div class="title1">
-        <h2>University of Wollongong</h2>
+    <div class="backgroundapac">
+        <div class="background-black"></div>
     </div>
-    <hr>
-    <div class="content1">
-        <div class="text1">
-            <p><strong>Location: </strong>Wollongong, Australia</p>
-            <p> <strong>Program Description: </strong> Since 1960, the University of Wollongong has been committed to creating an enjoyable and productive experience for study abroad students. The University of Wollongong, with its enrollment of 12,000 students, is a modern learning center with a reputation for high-quality teaching and research. Currently, 2,000 international students are part of the student body, coming from all over the world.
-            </p>
-            <p>Learn more on the <a href="https://heelsabroad.unc.edu/_portal/tds-program-brochure?programid=10341">UNC Study Abroad Website</a></p>
+
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="europe.html">Europe</a>
+        <a href="asia.html">Asia</a>
+        <a href="americas.html">Americas</a>
+        <a href="apac.html" class="active">APAC</a>
+    </div>
+
+    <div class="title0">
+        APAC
+    </div>
+
+    <br>
+    <div class="col-6 container" id="wollongong">
+        <div class="title1">
+            <h2>University of Wollongong</h2>
+        </div>
+        <hr>
+        <div class="content1">
+            <div class="text1">
+                <p><strong>Location: </strong>Wollongong, Australia</p>
+                <p> <strong>Program Description: </strong> Since 1960, the University of Wollongong has been committed to creating an enjoyable and productive experience for study abroad students. The University of Wollongong, with its enrollment of 12,000 students, is a modern learning center with a reputation for high-quality teaching and research. Currently, 2,000 international students are part of the student body, coming from all over the world.
+                </p>
+                <p>Learn more on the <a href="https://heelsabroad.unc.edu/_portal/tds-program-brochure?programid=10341">UNC Study Abroad Website</a></p>
+            </div>
         </div>
     </div>
-</div>
 
-<br>
+    <br>
+    <div class="col-6 container">
+        <div class="buttons">
+            <button class="btn" onclick="changeMap(-34.4053, 150.8778)">Wollongong, Australia</button>
+<!--            <button class="btn" onclick="changeMap(39.9042, 116.4074)">Beijing, China</button>-->
+<!--            <button class="btn" onclick="changeMap(31.7946, 35.2414)">Jerusalem, Israel</button>-->
+        </div>
+        <div class="map" data-lat="-34.4053" data-lng="150.8778">
+            <script src="mapbox_street.js"></script>
+        </div>
+    </div>
 
 </body>
 

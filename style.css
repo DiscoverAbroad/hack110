@@ -129,11 +129,23 @@ body {
     margin-right: auto;
 }
 
-.navbar > a, .navbar_m > a {
+.navbar > a {
     position: relative;
     float: left;
     display: block;
     color: #f2f2f2;
+    text-align: center;
+    padding: 15px 16px 10px;
+    text-decoration: none;
+    font-size: 24px;
+    margin: auto 5px;
+}
+
+.navbar_m > a {
+    position: relative;
+    float: left;
+    display: block;
+    color: #808080;
     text-align: center;
     padding: 15px 16px 10px;
     text-decoration: none;

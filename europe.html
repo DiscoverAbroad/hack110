@@ -5,6 +5,8 @@
     <title>Europe</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.7.0/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.7.0/mapbox-gl.js"></script>
     <script
             src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
             integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8="
@@ -14,7 +16,7 @@
     <script src="scripts.js"></script>
 </head>
 
-    <body>
+<body>
     <div class="backgroundeu">
         <div class="background-black"></div>
     </div>
@@ -24,7 +26,7 @@
         <a href="europe.html" class="active">Europe</a>
         <a href="asia.html">Asia</a>
         <a href="americas.html">Americas</a>
-        <a href="apac.html">Australia and Pacific Islands</a>
+        <a href="apac.html">APAC</a>
     </div>
 
     <div class="title0">
@@ -60,6 +62,18 @@
                 </p>
                 <p>Learn more on the <a href="https://heelsabroad.unc.edu/_portal/tds-program-brochure?programid=11760">UNC Study Abroad Website</a></p>
             </div>
+        </div>
+    </div>
+
+    <br>
+    <div class="col-6 container">
+        <div class="buttons">
+            <button class="btn" onclick="changeMap(37.9838, 23.7275)">Athens, Greece</button>
+            <button class="btn" onclick="changeMap(50.8214, 4.3917)">Brussels, Belgium</button>
+<!--            <button class="btn" onclick="changeMap(31.7946, 35.2414)">Jerusalem, Israel</button>-->
+        </div>
+        <div class="map" data-lat="37.9838" data-lng="23.7275">
+            <script src="mapbox_street.js"></script>
         </div>
     </div>
 
